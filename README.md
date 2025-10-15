@@ -26,10 +26,12 @@ pip install -r requirements.txt
 
 4. **Set up the configuration**
 cp .env.example .env
-# Edit .env file and add your token:
-# BOT_TOKEN=your_actual_token_here
 
-5. **Start bot**
+Edit .env file and add your token:
+BOT_TOKEN=your_actual_token_here
+
+6. **Start bot**
+   
 python calculator-bot.py
 
 ## Usage
