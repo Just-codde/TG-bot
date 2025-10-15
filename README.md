@@ -12,22 +12,29 @@
 ## Install and start
 
 1. **Clone the repository**
+   
 bash
+
 git clone https://github.com/Just-codde/TG-bot.git
 cd TG-bot
 
 2. **Create a virtual environment**
+   
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
-# venv\Scripts\activate   # Windows
+
+venv\Scripts\activate   # Windows
 
 3. **Install requirements**
+   
 pip install -r requirements.txt
 
-4. **Set up the configuration**
+5. **Set up the configuration**
+   
 cp .env.example .env
 
 Edit .env file and add your token:
+
 BOT_TOKEN=your_actual_token_here
 
 6. **Start bot**
