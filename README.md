@@ -12,9 +12,9 @@
 ## Install and start
 
 1. **Clone the repository**
-```bash
-git clone https://github.com/Just-codde/uni-telegram-bot.git
-cd uni-telegram-bot
+bash
+git clone https://github.com/Just-codde/TG-bot.git
+cd TG-bot
 
 2. **Create a virtual environment**
 python -m venv venv
