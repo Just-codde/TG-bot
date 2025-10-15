@@ -49,7 +49,7 @@ Available commands:
     /wiki <request> - Search on Wikipedia
 
 
-Example using /calculator:
+## Example using /calculator:
 
 Your message:
 /calculate
