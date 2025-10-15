@@ -66,7 +66,7 @@ Answer: 6
 /calculate
 
 
-Example using /wiki:
+## Example using /wiki:
 
 Your message:
 /wiki Linux
@@ -79,7 +79,7 @@ Linux is a family of open-source Unix-like operating systems...
 https://en.wikipedia.org/wiki/Linux
 
 
-Technical details
+## Technical details
 
     Python 3.8+ - Programming language
 
@@ -111,7 +111,7 @@ ApplicationBuilder()
     └── numexpr.evaluate() - Safe math evaluation
 
 
-Data Flow:
+## Data Flow:
 
 1. User sends command → Telegram servers
 
@@ -136,7 +136,7 @@ Data Flow:
     Returns formatted response with title, summary, and URL
 
 
-Security Features:
+## Security Features:
 
     numexpr instead of eval() - prevents code injection
 
@@ -145,7 +145,7 @@ Security Features:
     Exception handling - graceful error recovery
 
 
-File Structure
+## File Structure
 
 telegram-bot/
 ├── calculator-bot.py      # Main bot application
