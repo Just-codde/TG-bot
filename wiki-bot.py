@@ -12,8 +12,8 @@ TOKEN = os.getenv("BOT_TOKEN")
 
 user = {}
 
-#if you want to change language, change 'ru' on your language. Example: 'eng', 'deu'.
-wikipedia.set_lang('ru')
+#if you want to change language, change 'ru' on your language. Example: 'ru', 'deu'.
+wikipedia.set_lang('eng')
 
 # Creationg just logger
 logging.basicConfig(
